@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true,
+        "node": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "rules": {
+        "eol-last": "off",
+        "no-underscore-dangle": "off",
+        "operator-linebreak": "off",
+        "no-restricted-globals": ["error", "event", "fdescribe"],
+        "no-undef": "off"
+    }
+}

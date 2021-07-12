@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Look For Your Favorite Restaurant">
+  <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
+  <meta name="theme-color" content="#000000">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <title>X-Food | Restaurants for you</title>
+</head>
+
+<body>
+  <a href="#mainContent" class="skip-link">Skip to content</a>
+  <header class="app-bar">
+    <div class="app-bar__brand">
+      <img src="images/logo.png" alt="X-food_logo">
+    </div>
+    <div class="app-bar__menu">
+      <button id="hamburgerButton" aria-label="hamburger-button"><i class="fas fa-bars"></i></button>
+    </div>
+    <nav id="navigationDrawer" class="app-bar__navigation">
+      <ul>
+        <li><a href="#/home">Home</a></li>
+        <li><a href="https://github.com/dilitambayonk/">About Us</a></li>
+        <li><a href="#/favorite">Favorites</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="jumbotron">
+    <picture>
+      <source media="(min-width: 600px)" srcset="heros/hero-image-large.jpg" sizes="100%">
+      <img src="heros/hero-image-small.jpg" alt="hero-image">
+    </picture>
+    <div class="hero-content">
+      <h1 tabindex="0">Look For Your Favorite Restaurant</h1>
+      <p tabindex="0">We help you find your favorite restaurant in the location around you.</p>
+      <a href="#mainContent">
+        <button class="check" aria-label="check-button">Check Now</button>
+      </a>
+    </div>
+  </div>
+  <div class="hero_area"></div>
+
+  <main id="mainContent"></main>
+
+  <footer>
+    <p>Copyright © 2021 X-Food PWA for The Final Submission <a href="https://www.dicoding.com/academies/219">MFWDE</a>
+    </p>
+  </footer>
+</body>
+
+</html>
